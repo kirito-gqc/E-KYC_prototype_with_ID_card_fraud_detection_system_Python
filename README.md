@@ -4,6 +4,19 @@ This application is applied with concept of E-KYC which user need to gain author
 - DBMS used: MySQL
 - Library used: Flask, ULtralytic YOLO, Pillow, Open CV
 
+#Alert:
+- The model for recognizing the landmark and Fin card is available in this link: https://drive.google.com/file/d/1aHknOtwghd3A76KLDXDitnrmLpFgZOVt/view?usp=sharing
+- Dataset are available as below:
+  1. midv2020 fin_id (Finland ID card) dataset link:
+  https://drive.google.com/file/d/1jnAC2y8uVOjKMisKo-pAOdrCREf6Pxry/view?usp=sharing
+  2. Fraud fin_id (Finland ID card) dataset link:
+  https://drive.google.com/file/d/1eqAq9DMNa-Ivf-BqpdAkoqEJeLMu9mlU/view?usp=sharing
+  3. YOLO landmark detection dataset link:
+  https://drive.google.com/file/d/1cBxlr1EA4KGFBd9IpIhgavrdRmiz8_gs/view?usp=sharing 
+  4. YOLO landmark fraud classification dataset link:
+  https://drive.google.com/file/d/1eauvQGRa-WZz-ToI7kYed9wdhXxdXoCI/view?usp=sharing
+
+
 # Dataset
 - The dataset used is midv2020's Fin id dataset (Source link: https://arxiv.org/ftp/arxiv/papers/2107/2107.00396.pdf)
 - The fraud card dataset is designed using PhotoPea for performing image forgery such as splicing and copy move towards the original card's ID details and security features named as fraud_fin_id
