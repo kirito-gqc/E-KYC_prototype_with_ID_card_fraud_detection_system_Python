@@ -14,22 +14,22 @@ In these few years of pandemic, the applying of eKYC (Electronic Know Your Custo
 # Deliverables
 - There are 2 target users which are
   1) Financial Application Customer
-  2)  Financial Application Administrator
+  2) Financial Application Administrator
 - The eKYC based financial web application allow customers to:
-  •	Register an eKYC account
-  •	Login the eKYC account
+  1) Register an eKYC account
+  2) Login the eKYC account
 - The eKYC based financial web application allow administrator to:
-  •	View customer eKYC account detail 
-  •	Read and view eKYC access records
+  1) View customer eKYC account detail 
+  2) Read and view eKYC access records
 - The card fraud detector system (IDFD) allows the financial application customer to:
-  •	Upload the identification card for verification during registration and login account
-  •	Reupload image if card image is rejected
-  •	Receive digital alert email while the card from the same account rejected for multiple times
-  •	Block access if the authentication request attempt used out
-  •	Receive an auto-generated OTP in the email after fraud detection passed
-  •	Do face recognition on the face in uploaded card during every login to account
+  1) Upload the identification card for verification during registration and login account
+  2) Reupload image if card image is rejected
+  3) Receive digital alert email while the card from the same account rejected for multiple times
+  4) Block access if the authentication request attempt used out
+  5) Receive an auto-generated OTP in the email after fraud detection passed
+  6) Do face recognition on the face in uploaded card during every login to account
 - The card fraud detector system (IDFD) allows the financial application administrator to:
-  •	Look over access history of customer
+  1) Look over access history of customer
 
 # Development process
 - On detecting bad quality image uploaded, bad image like tilt, blur and glare image are rejected before the ID fraud detection started
